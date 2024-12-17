@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+h1 img{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+}
+button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+#clickBtn {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+#incomePerSecBtn, #incomePerClickBtn {
+    background-color: #008CBA;
+    color: white;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background:linear-gradient(90deg , #e0ac1dee , #43bb14);
+    width: 0;
+}

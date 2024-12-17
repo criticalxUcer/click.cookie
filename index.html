@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Кликер</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images-removebg-preview.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Кликер<img src="images-removebg-preview.png" alt=""></h1>
+        <p>Баланс: <span id="balance">0</span></p>
+        <div class="box1">
+            <p>Доход в секунду: <span id="incomeRate">0</span></p><h4></h4>
+            <p>Доход за клик: <span id="clickRate">1</span></p>
+        </div>
+        <button id="clickBtn">Кликни для заработка! <img src="images-removebg-preview.png" alt=""></button>
+        <div class="box">
+            <h2>Ранг</h2>
+            <p>Текущий ранг: <span id="rank">1</span></p>
+            <div class="progress-bar">
+                <div id="progress" class="progress"></div>
+            </div>
+        </div>
+        <h2>Улучшения</h2>
+        <button id="incomePerSecBtn">Увеличить доход за секунду (Стоимость: <span id="incomePerSecCost">10</span>)</button>
+        
+        <button id="incomePerClickBtn">Увеличить доход за клик (Стоимость: <span id="incomePerClickCost">5</span>)</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
